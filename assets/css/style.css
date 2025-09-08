@@ -64,3 +64,8 @@ body{
   .logo{width:56px;height:56px}
   .hero{padding:2.2rem 0}
 }
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
