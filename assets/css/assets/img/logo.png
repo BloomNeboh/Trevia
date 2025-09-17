@@ -1,0 +1,11 @@
+<header>
+  <img src="assets/img/logo.png" alt="Trevia Logo" class="logo" />
+  <nav>
+    <ul>
+      <li><a href="#about" class="active">About</a></li>
+      <li><a href="#adventures">Adventures</a></li>
+      <li><a href="#daily">Daily Improvements</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
