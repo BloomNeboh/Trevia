@@ -1,102 +1,195 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Trevia — Travel made timeless. Adventures, daily improvements, and stories inspired by the beauty of Tanzania." />
+  <meta property="og:title" content="Trevia — Travel Made Timeless" />
+  <meta property="og:description" content="Adventures & mindful travel inspired by Tanzania." />
+  <meta property="og:image" content="assets/img/logo.png" />
+  <meta property="og:type" content="website" />
+
   <title>Trevia — Travel Made Timeless</title>
-  <link rel="stylesheet" href="assets/css/style.css">
-  <meta name="description" content="Trevia — Travel Made Timeless. Adventures & daily improvements inspired by Tanzania and beyond.">
+  <link rel="icon" href="assets/img/logo.png" type="image/png" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <style>
+    body {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: #fafafa;
+      color: #333;
+    }
+    header {
+      background: #fff;
+      padding: 1rem 2rem;
+      position: sticky;
+      top: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      z-index: 100;
+    }
+    header img.logo {
+      height: 40px;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+      margin: 0;
+    }
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+      position: relative;
+    }
+    nav a.active::after {
+      content: '';
+      position: absolute;
+      bottom: -5px;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background: #007B7F;
+    }
+    .hero {
+      background: url('assets/img/hero.jpg') no-repeat center center/cover;
+      height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #fff;
+      padding: 2rem;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      background: rgba(0,0,0,0.5);
+      padding: 1rem 2rem;
+      border-radius: 12px;
+    }
+    .btn {
+      display: inline-block;
+      background: #007B7F;
+      color: #fff;
+      padding: 0.8rem 1.5rem;
+      margin-top: 1rem;
+      border-radius: 25px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #005f63;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    footer {
+      background: #111;
+      color: #eee;
+      padding: 2rem;
+      text-align: center;
+    }
+    footer a {
+      color: #eee;
+      margin: 0 0.5rem;
+      text-decoration: none;
+    }
+    footer a:hover {
+      color: #00c2c7;
+    }
+    @media (max-width: 768px) {
+      nav ul {
+        flex-direction: column;
+        gap: 1rem;
+      }
+    }
+  </style>
 </head>
 <body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <div class="brand">
-        <img src="assets/img/logo.png" alt="Trevia logo" class="logo">
-        <div class="brand-text">
-          <h1>Trevia</h1>
-          <p class="slogan"><em>Travel Made Timeless</em></p>
-        </div>
-      </div>
-      <nav class="nav">
-        <a href="#about">About</a>
-        <a href="#adventures">Adventures</a>
-        <a href="#improve">Daily Improvements</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
+  <header>
+    <img src="assets/img/logo.png" alt="Trevia Logo" class="logo" />
+    <nav>
+      <ul>
+        <li><a href="#about" class="active">About</a></li>
+        <li><a href="#adventures">Adventures</a></li>
+        <li><a href="#daily">Daily Improvements</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <main>
-    <section id="hero" class="hero">
-      <div class="container">
-        <h2>Explore Tanzania & the world with elegance and heart</h2>
-        <p class="lead">Curated journeys, mindful adventure, and practical tips to travel timelessly.</p>
-        <a class="btn" href="#adventures">Discover Adventures</a>
-      </div>
-    </section>
-
-    <section id="about" class="section">
-      <div class="container">
-        <h3>About Trevia</h3>
-        <p>Trevia blends adventurous exploration with mindful, elegant travel. Inspired by East African landscapes — from Kilimanjaro to the Serengeti — we craft experiences that feel timeless.</p>
-      </div>
-    </section>
-
-    <section id="adventures" class="section alt">
-      <div class="container grid">
-        <article class="card">
-          <h4>Mount Kilimanjaro Trek</h4>
-          <p>Guides, itineraries, and packing lists for an epic climb.</p>
-        </article>
-    <article class="card">
-  <h4>Serengeti Safari</h4>
-  <p>Wildlife safaris and ethical viewing practices to see animals responsibly.</p>
-</article>
-<article class="card">
-  <img src="assets/img/serengeti.jpg" alt="Serengeti Safari" />
-  <h4>Serengeti Safari</h4>
-  <p>Track the Great Migration, sleep under the stars in luxury tents, and connect with nature in its purest form.</p>
-</article>
-
-
-          <h4>Serengeti Safari</h4>
-          <p>Wildlife safaris and ethical viewing practices to see animals responsibly.</p>
-        </article>
-        <article class="card">
-          <h4>Zanzibar Escapes</h4>
-          <p>Coastal retreats and cultural highlights for a luxe island stay.</p>
-        </article>
-      </div>
-    </section>
-
-    <section id="improve" class="section">
-      <div class="container">
-        <h3>Daily Improvements</h3>
-        <p>Small habits and travel-ready routines to keep you prepared and present on the road.</p>
-        <ul>
-          <li>Pack checklists that actually save space</li>
-          <li>Daily journaling prompts for better memories</li>
-          <li>Local etiquette and slow-travel mindfulness</li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="contact" class="section alt">
-      <div class="container">
-        <h3>Contact</h3>
-        <p>Email: <a href="mailto:hello@trevia.example">hello@trevia.example</a></p>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <p>&copy; <span id="year"></span> Trevia — <em>Travel Made Timeless</em></p>
+  <div class="hero">
+    <div>
+      <h1>🌍 Trevia — Travel Made Timeless</h1>
+      <a href="#adventures" class="btn">Discover Adventures</a>
     </div>
+  </div>
+
+  <section id="about">
+    <h2>About Trevia</h2>
+    <p>
+      Trevia is your companion for unforgettable journeys — from the wide-open savannas of Tanzania to the quiet, daily joys of mindful travel.
+    </p>
+  </section>
+
+  <section id="adventures">
+    <h2>Adventures</h2>
+    <p>Explore curated trips and timeless experiences inspired by Tanzania.</p>
+    <!-- Example adventure -->
+    <img src="assets/img/serengeti.jpg" alt="Serengeti Safari" width="100%" loading="lazy" />
+  </section>
+
+  <section id="daily">
+    <h2>Daily Improvements</h2>
+    <p>Travel isn’t just about the big trips — it’s also about small, daily adventures that shape who we are.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email us: <a href="mailto:hello@trevia.com">hello@trevia.com</a></p>
+  </section>
+
+  <footer>
+    <p>© <span id="year"></span> Trevia. All rights reserved.</p>
+    <p>
+      <a href="#">Instagram</a> ·
+      <a href="#">Facebook</a> ·
+      <a href="#">Twitter</a>
+    </p>
   </footer>
 
   <script>
+    // update year automatically
     document.getElementById('year').textContent = new Date().getFullYear();
+
+    // highlight active nav link on scroll
+    const sections = document.querySelectorAll('section');
+    const navLinks = document.querySelectorAll('nav a');
+
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop - 100;
+        if (pageYOffset >= sectionTop) {
+          current = section.getAttribute('id');
+        }
+      });
+
+      navLinks.forEach(a => {
+        a.classList.remove('active');
+        if (a.getAttribute('href').includes(current)) {
+          a.classList.add('active');
+        }
+      });
+    });
   </script>
 </body>
 </html>
