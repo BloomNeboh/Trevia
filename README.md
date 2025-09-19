@@ -6,10 +6,9 @@ From breathtaking safaris to daily moments of discovery, Trevia helps you explor
 ---
 
 ## ✨ What We Offer
-- 🗺️ Curated travel experiences  
-- 📸 Visual stories that inspire wanderlust  
+- Curated travel experiences  
 - 🌿 Tips for sustainable & mindful travel  
-- 🌍 A digital hub for adventure-seekers everywhere  
+- 🌍 A digital hub for adventure seekers everywhere  
 
 ---
 
