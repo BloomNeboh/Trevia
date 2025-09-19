@@ -1,4 +1,4 @@
-# 🌍 Trevia — Travel Made Timeless ✈️
+# Trevia — Travel Made Timeless 
 
 Welcome to **Trevia**, your gateway to timeless adventures inspired by the beauty, culture, and spirit of Tanzania.  
 From breathtaking safaris to daily moments of discovery, Trevia helps you explore the world with style and meaning.  
