@@ -5,32 +5,13 @@ From breathtaking safaris to daily moments of discovery, Trevia helps you explor
 
 ---
 
-## ✨ What We Offer
+## What We Offer
 - Curated travel experiences  
-- 🌿 Tips for sustainable & mindful travel  
-- 🌍 A digital hub for adventure seekers everywhere  
+- Tips for sustainable & mindful travel  
+- A digital hub for adventure seekers everywhere  
+
+## Inspiration
+Trevia is more than travel it’s about creating stories, cherishing culture, and connecting with timeless beauty.  
 
 ---
-
-## 🚀 Getting Started
-This site is built with **GitHub Pages** for fast, reliable hosting.
-
-**Deployment steps:**
-1. Go to **Repository → Settings → Pages**  
-2. Select `main` branch and root folder (or `docs/`)  
-3. Save → Your site goes live instantly 🎉  
-
----
-
-## 📂 Project Structure
-- `index.html` → Main landing page  
-- `assets/css/style.css` → Custom styles  
-- `assets/img/logo.png` → Brand logo  
-
----
-
-## 💡 Inspiration
-Trevia is more than travel — it’s about creating stories, cherishing culture, and connecting with timeless beauty.  
-
----
-✨ _Made with love for travelers everywhere_ ✨
+ _Made with love for travelers everywhere_
