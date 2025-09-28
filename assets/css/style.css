@@ -1,1 +1,70 @@
+/* General */
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+h1, h2, h3 {
+  font-family: "Georgia", serif;
+}
+a { text-decoration: none; }
+
+/* Hero */
+.hero {
+  background: url('../img/hero.jpg') center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+.hero .overlay {
+  background: rgba(0,0,0,0.5);
+  padding: 40px;
+  border-radius: 10px;
+}
+.hero h1 { font-size: 3.5rem; }
+.hero p { font-size: 1.3rem; }
+.hero .btn {
+  display: inline-block;
+  background: #c7a14a;
+  padding: 12px 24px;
+  margin-top: 20px;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Sections */
+section { padding: 60px 20px; max-width: 1200px; margin: auto; }
+.about, .sustainability {
+  display: flex; gap: 40px; align-items: center; flex-wrap: wrap;
+}
+.about img, .sustainability img { border-radius: 10px; max-width: 100%; }
+.offers .grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;
+}
+.offers .card {
+  background: #f9f9f9; padding: 20px; border-radius: 10px;
+  text-align: center; transition: transform 0.3s;
+}
+.offers .card:hover { transform: translateY(-5px); }
+.offers img { width: 100%; border-radius: 10px; }
+
+/* Buttons */
+.btn-secondary {
+  display: inline-block; background: #004225; color: white;
+  padding: 10px 20px; border-radius: 5px; margin-top: 10px;
+}
+.contact-cta { text-align: center; background: #f2f2f2; border-radius: 10px; }
+.contact-cta .buttons { margin-top: 20px; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+.contact-cta .btn { background: #004225; color: white; padding: 12px 20px; border-radius: 6px; }
+
+/* Footer */
+footer {
+  background: #004225; color: white;
+  text-align: center; padding: 20px; margin-top: 40px;
+}
 
